@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_show_guiline_left_margin_left">100dp</dimen>
+    <dimen name="content_show_guiline_left_margin_right">17dp</dimen>
+    <dimen name="content_show_name_song_margin_top">10dp</dimen>
+    <dimen name="content_show_name_channel_margin_top">10dp</dimen>
+    <dimen name="content_show_view_margin_top">10dp</dimen>
+    <dimen name="content_show_post_time_margin_left">5dp</dimen>
+
+    <dimen name="left_menu_view_layout_height">50dp</dimen>
+    <dimen name="margin_right">200dp</dimen>
+    <dimen name="left_menu_content_menu_text_size">23sp</dimen>
+</resources>

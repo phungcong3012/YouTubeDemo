@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.admin.youtubedemo.CustomConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:name="com.example.admin.youtubedemo.MainFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/fragment_menu_left"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="200dp"
+        android:background="#FF0"
+        app:layout_constraintRight_toLeftOf="@id/gl" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/gl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="280dp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_menu_icon"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/lb_tv_white"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:background="#ffd500"
+        android:id="@+id/fragment_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/fragment_menu_left" />
+</com.example.admin.youtubedemo.CustomConstraintLayout>

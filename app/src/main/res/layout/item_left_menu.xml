@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_header"
+    android:focusable="true"
+    android:layout_marginTop="20dp"
+    android:focusableInTouchMode="true">
+
+    <View
+        android:id="@+id/view_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/left_menu_view_layout_height" />
+
+    <TextView
+        android:id="@+id/tv_content_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="@string/left_menu"
+        android:textColor="@color/lb_tv_white"
+        android:textSize="@dimen/left_menu_content_menu_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/view_left_menu"
+        app:layout_constraintEnd_toEndOf="@+id/view_left_menu"
+        app:layout_constraintStart_toStartOf="@+id/view_left_menu"
+        app:layout_constraintTop_toTopOf="@+id/view_left_menu" />
+</android.support.constraint.ConstraintLayout>

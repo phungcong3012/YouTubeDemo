@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YouTubeDemo</string>
+    <string name="content_show_time_song">3:29</string>>
+    <string name="content_show_name_song">Take me to your heart</string>>
+    <string name="content_show_channel">Nhac hay online</string>>
+    <string name="content_show_view">602 lượt xem</string>>
+    <string name="content_show_post_time">2 giờ trước</string>
+    <string name="content_show_text_view">lượt xem</string>
+    <string name="content_show_text_post_time">giờ trước</string>
+    <string name="left_menu">Trang chủ</string>
+    <string name="title_activity_playback_overlay">PlaybackOverlayActivity</string>
+</resources>

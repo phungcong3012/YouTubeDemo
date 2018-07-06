@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="content_show_background_time_song_color">#000000</color>
+    <color name="content_show_background">#000000</color>
+    <color name="content_show_time_song_color">#ffffff</color>>
+    <color name="content_show_name_song_color">#ffffff</color>
+    <color name="content_show_name_channel_color">#9E9E9E</color>
+    <color name="content_show_view_color">#9E9E9E</color>
+    <color name="content_show_post_time">#9E9E9E</color>
+    <color name="left_menu_background_color">#ffffff</color>
+    <color name="left_menu_text_color">#000000</color>
+</resources>
